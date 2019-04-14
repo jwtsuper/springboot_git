@@ -26,4 +26,7 @@ spring:
 
 mybatis:
   type-aliases-package: com.baizhi.entity
+  mapper-locations: classpath:com/baizhi/mapping/*Mapper.xml
+
+
 
